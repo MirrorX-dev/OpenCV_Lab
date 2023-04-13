@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('C:/Users/Vespertino/Documents/predictMove/tester3.mp4')
+cap = cv2.VideoCapture('D:/Programación en entornos Big Data/Prácticas/predictMove/tester3.mp4')
 fgbg = cv2.createBackgroundSubtractorMOG2()
 frame_num = 0
 prev_contours = []
